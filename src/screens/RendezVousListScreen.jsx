@@ -13,7 +13,7 @@ export default function RendezVousListScreen({ navigation }) {
       const { data } = await getRendezVous();
       setRendezVous(data);
     } catch {
-      /* handle silently */
+    
     } finally {
       setLoading(false);
       setRefreshing(false);

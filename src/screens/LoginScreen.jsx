@@ -46,7 +46,7 @@ export default function LoginScreen({ navigation }) {
           <Text style={s.tagline}>Votre beauté, notre priorité</Text>
         </View>
 
-        {/* ── Card formulaire ── */}
+        {/* Carte formulaire  */}
         <View style={s.card}>
           <Text style={s.cardTitle}>Connexion</Text>
 

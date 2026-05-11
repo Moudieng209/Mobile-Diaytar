@@ -11,7 +11,7 @@ import RegisterScreen from '../screens/RegisterScreen';
 import DashboardScreen from '../screens/DashboardScreen';
 import RendezVousListScreen from '../screens/RendezVousListScreen';
 import RendezVousFormScreen from '../screens/RendezVousFormScreen';
-import RendezVousDetailScreen from '../screens/RendezVousDetailScreen'; // ← AJOUT
+import RendezVousDetailScreen from '../screens/RendezVousDetailScreen'; 
 import ServicesScreen from '../screens/ServicesScreen';
 import ProfilScreen from '../screens/ProfilScreen';
 import AdminDashboardScreen from '../screens/AdminDashboardScreen';
@@ -105,7 +105,7 @@ function AppNavigatorContent() {
             component={RendezVousFormScreen}
             options={{ headerShown: true, title: 'Rendez-vous' }}
           />
-          {/* ← AJOUT */}
+          {}
           <Stack.Screen
             name="RendezVousDetail"
             component={RendezVousDetailScreen}
