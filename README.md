@@ -29,14 +29,14 @@ Assurez-vous d'avoir configuré votre environnement de développement (Node.js, 
 > **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
 
 Etape1: Installer les dépendances
-npm install
+"npm install"
 # ou
-yarn install
+"yarn install"
 
 Etape2: Lancer l'application
-npx react-native run-android
+"npx react-native run-android"
 # ou
-npx react-native run-ios
+"npx react-native run-ios"
 
 📸 Aperçus du projet
 
