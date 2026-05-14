@@ -33,7 +33,11 @@ Etape1: Installer les dépendances
 # ou
 "yarn install"
 
-Etape2: Lancer l'application
+Etape3: Installer et démarrer Redis-Server
+
+Etape4: Démarrer l'api "node server.js"
+
+Etape5: Lancer l'application
 "npx react-native run-android"
 # ou
 "npx react-native run-ios"
