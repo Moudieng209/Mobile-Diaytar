@@ -7,7 +7,7 @@ Ce projet est une application mobile développée avec **React Native**. Il a é
 ## 🚀 Fonctionnalités
 - Intégration de composants natifs.
 - Navigation fluide entre les écrans.
-- [Ajoutez ici une fonction spécifique, ex: Gestion d'API ou Authentification].
+- Gestion d'API et Authentification.
 
 ## 🛠️ Stack Technique
 - **Framework** : React Native
