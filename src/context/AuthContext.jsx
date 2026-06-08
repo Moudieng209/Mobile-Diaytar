@@ -2,6 +2,7 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import API from '../api/axiosConfig';
 import { connexion, inscription, deconnexion } from '../services/authService';
+import { registerDeviceToken } from '../services/notificationService';
 
 const AuthContext = createContext();
 
@@ -26,6 +27,7 @@ export const AuthProvider = ({ children }) => {
         API.defaults.headers.common.Authorization = `Bearer ${savedToken}`;
         // On remet l'utilisateur dans l'état
         setUser(JSON.parse(savedUser));
+        await registerDeviceToken();
       }
     } catch (e) {
       console.log("Erreur chargement stockage", e);
@@ -43,6 +45,8 @@ export const AuthProvider = ({ children }) => {
     
     API.defaults.headers.common.Authorization = `Bearer ${data.token}`;
     setUser(data.utilisateur);
+    
+    await registerDeviceToken();
   };
 
   const register = async (userData) => {

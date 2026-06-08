@@ -125,5 +125,8 @@ dependencies {
     }
 }
 
-// apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+//pour react-native-vector-icons
 apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
+
+// Google Services plugin
+apply plugin: 'com.google.gms.google-services'

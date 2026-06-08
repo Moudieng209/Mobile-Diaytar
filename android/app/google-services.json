@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "589141108777",
+    "project_id": "diaytar-3b2ff",
+    "storage_bucket": "diaytar-3b2ff.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589141108777:android:f41f865bc7110c4c139438",
+        "android_client_info": {
+          "package_name": "com.mobile1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkNQZU2mtlJPqmN1e3WRFmI8kz7MmZu90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
